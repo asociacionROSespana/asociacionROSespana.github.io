@@ -22,9 +22,9 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "ROSCon XX 20XX"
-keywords:    "ROSCon XX, robot, robotics, Robot Operating System, ROS"
-description: "The annual ROS developer conference for X."
+title:       "ROSCon Madrid 2023"
+keywords:    "ROSCon Madrid, robot, robotics, Robot Operating System, ROS"
+description: "The annual ROS developer conference for Madrid."
 source_link: "http://localhost:4000"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
@@ -48,20 +48,18 @@ colors:
 
 
 # Output directory to match server directory
-destination: '20XX'
-baseurl: '/20XX'
+destination: '2023'
+baseurl: '/2023'
 
 
 # variables used throughout the site for consistency.
 # also with an eye for avoiding copy and paste issues porting forward.
 nth_roscon: 'twelveth'
-roscon_year: '20xx'
-cfp_date: 'April 7th, 20xx'
-diversity_application_deadline: 'April 7th, 20xx'
-workshop_submission_deadline: 'May 7th, 20xx'
-submission_deadline: 'July 9th, 20xx'
-acceptance_date: 'August 17th, 20xx'
-early_registration_deadline: 'September 3rd, 20xx'
-late_registration_start: 'October 1st, 20xx'
-event_dates: 'October 18th - October 20th, 20xx'
-roscon_city: 'New Orleans, Louisiana, USA'
+roscon_year: '2023'
+roscon_event: 'Madrid'
+proposals_talks_deadline: 'June 1st, 2023'
+early_registration_start: 'June 1st, 2023'
+statement_acceptance_talks: 'September 1st, 2023'
+early_registration_deadline: 'September 10th, 2023'
+event_date: 'September 29th 2023'
+roscon_city: 'Fuenlabrada, Madrid, ESP'

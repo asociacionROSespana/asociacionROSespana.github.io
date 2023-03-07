@@ -7,42 +7,28 @@ fa-icon: calendar
 published: true
 ---
 
-# ROSCon XX 20XX Key Dates
+# ROSCon {{site.roscon_event}} {{site.roscon_year}}! Key Dates
 
 
 <br>
 
-{% if site.cfp_date %}
-### Call for Proposals circulated
-{{ site.cfp_date }}
+{% if site.proposals_talks_deadline %}
+### Talk proposals deadline
+{{ site.proposals_talks_deadline }}
 
 <br>
 
 {% endif %}
-{% if site.workshop_submission_deadline %}
-### Workshop submission deadline
-{{ site.workshop_submission_deadline }}
+{% if site.early_registration_start %}
+### Early registration
+{{ site.early_registration_start }}
 {% endif %}
 
 <br>
 
-{% if site.diversity_application_deadline %}
-### Diversity Scholarship application deadline
-{{ site.diversity_application_deadline }}
-{% endif %}
-
-<br>
-
-{% if site.submission_deadline %}
-### Proposal submission deadline
-{{ site.submission_deadline }}
-{% endif %}
-
-<br>
-
-{% if site.acceptance_date %}
-### Proposal acceptance notification
-{{ site.acceptance_date }}
+{% if site.statement_acceptance_talks %}
+### Communication of acceptance of talks
+{{ site.statement_acceptance_talks }}
 {% endif %}
 
 <br>
@@ -54,10 +40,9 @@ published: true
 
 <br>
 
-{% if site.late_registration_start %}
-### Late registration starts
-{{ site.late_registration_start }}
+{% if site.event_date %}
+### Event day
+{{ site.event_date }}
 {% endif %}
 
 <br>
-
