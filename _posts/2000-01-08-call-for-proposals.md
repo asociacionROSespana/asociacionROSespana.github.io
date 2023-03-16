@@ -7,20 +7,20 @@ style: left
 published: false
 ---
 
-# ROSCon XX 20XX Call for Proposals
+# ROSCon {{site.roscon_event}} {{site.roscon_year}} Temas para charlas
 
 
-### General Content Guidelines:
+### Pautas generales de contenido:
 
-All topics related to ROS (1 & 2) are invited. Example topics include:
+Todos los temas relacionados con ROS (1 y 2) están invitados. Los temas de ejemplo incluyen:
 
-* New packages / frameworks
-* Insights / improvements for existing packages
-* Case studies on unique ROS deployments / use cases
-* Developments for specific robots, sensors, platforms
-* Competitions / collaborations / initiatives
-* ROS in commercial / research / teaching environments
-* Standards / best practices / development tools
+* Nuevos paquetes / frameworks
+* Perspectivas / mejoras para los paquetes existentes
+* Estudios de casos sobre implementaciones únicas de ROS / casos de uso
+* Desarrollos para robots específicos, sensores, plataformas
+* Competiciones / colaboraciones / iniciativas
+* ROS en entornos comerciales / de investigación / de enseñanza
+* Estándares / mejores prácticas / herramientas de desarrollo
 
 To get an idea of the content and tone of ROSCon, check out the slides and videos from [previous years](https://example.com/#past-events).
 We cannot offer content that is not proposed!

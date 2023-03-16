@@ -7,41 +7,42 @@ fa-icon: calendar
 published: true
 ---
 
-# ROSCon {{site.roscon_event}} {{site.roscon_year}}! Key Dates
+# ROSCon {{site.roscon_event}} {{site.roscon_year}}!
+# Fechas importantes
 
 
 <br>
 
 {% if site.proposals_talks_deadline %}
-### Talk proposals deadline
+### Plazo para propuestas de charlas
 {{ site.proposals_talks_deadline }}
 
 <br>
 
 {% endif %}
 {% if site.early_registration_start %}
-### Early registration
+### Registro previo
 {{ site.early_registration_start }}
 {% endif %}
 
 <br>
 
 {% if site.statement_acceptance_talks %}
-### Communication of acceptance of talks
+### Comunicación de aceptación de las charlas
 {{ site.statement_acceptance_talks }}
 {% endif %}
 
 <br>
 
 {% if site.early_registration_deadline %}
-### Early registration deadline
+### Fin del registro previo
 {{ site.early_registration_deadline }}
 {% endif %}
 
 <br>
 
 {% if site.event_date %}
-### Event day
+### Día del evento
 {{ site.event_date }}
 {% endif %}
 
