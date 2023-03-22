@@ -1,5 +1,5 @@
 ---
-title: "Dates"
+title: "Fechas"
 bg: logo_yellow
 color: logo_purple2
 style: center
