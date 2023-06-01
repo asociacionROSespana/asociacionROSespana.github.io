@@ -587,10 +587,10 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-register { border-color: #fab125; }
-  #register { background-color: #fab125 !important; color: #111111; }
-  #register a { color: #111111; }
-  #register .sectiondivider { color: #fab125; }
+  nav .p-register { border-color: #92468E; }
+  #register { background-color: #92468E !important; color: #f8f8f8; }
+  #register a { color: #f8f8f8; }
+  #register .sectiondivider { color: #92468E; }
 
   
   
