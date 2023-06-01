@@ -587,6 +587,14 @@ html { box-sizing: border-box; }
   
   
   
+  nav .p-register { border-color: #4d235e; }
+  #register { background-color: #4d235e !important; color: #f8f8f8; }
+  #register a { color: #f8f8f8; }
+  #register .sectiondivider { color: #4d235e; }
+
+  
+  
+  
   nav .p-sponsors { border-color: ; }
   #sponsors { background-color:  !important; color: #542762; }
   #sponsors a { color: #542762; }

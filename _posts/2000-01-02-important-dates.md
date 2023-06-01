@@ -41,6 +41,13 @@ published: true
 
 <br>
 
+{% if site.late_registration %}
+### Inicio del registro general
+{{ site.late_registration }}
+{% endif %}
+
+<br>
+
 {% if site.event_date %}
 ### Día del evento
 {{ site.event_date }}
