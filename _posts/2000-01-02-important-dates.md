@@ -7,7 +7,7 @@ fa-icon: calendar
 published: true
 ---
 
-# ROSCon {{site.roscon_event}} {{site.roscon_year}}!
+# ROSCon {{site.roscon_event}} {{site.roscon_year}}
 # Fechas importantes
 
 
