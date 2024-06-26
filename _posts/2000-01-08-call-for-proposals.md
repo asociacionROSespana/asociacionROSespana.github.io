@@ -10,7 +10,7 @@ published: true
 # CfP ROSCon {{site.roscon_event}} {{site.roscon_year}} 
 
 
-ROSCon ES 2024 se llevará a cabo en Sevilla, del 19 al 20 de septiembre de 2023. Es el lugar para que los desarrolladores de ROS de todos los niveles, desde principiantes hasta expertos, pasen dos días extraordinarios aprendiendo y estableciendo contactos con la comunidad ROS.
+ROSCon ES 2024 se llevará a cabo en Sevilla, del 19 al 20 de septiembre de 2024. Es el lugar para que los desarrolladores de ROS de todos los niveles, desde principiantes hasta expertos, pasen dos días extraordinarios aprendiendo y estableciendo contactos con la comunidad ROS.
 
 ¡Para ello, solicitamos sus contribuciones! El núcleo de la conferencia es (y siempre ha sido) el contenido de la comunidad. Este año buscamos propuestas para dos tipos diferentes de contenido:
 
