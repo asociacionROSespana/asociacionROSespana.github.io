@@ -372,7 +372,7 @@ nav ul li:hover, nav ul li.active {
 .hotel-map {
 
     width:clamp(200px,calc(60vw),800px);
-    height:400px;    
+    height:400px;
     box-sizing: border-box;
 }
 
@@ -387,7 +387,7 @@ nav ul li:hover, nav ul li.active {
 
 .register {
     background-color: pink;
-    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     border: solid;
     border-width: thin;
     color: black;
@@ -407,7 +407,7 @@ nav ul li:hover, nav ul li.active {
     border-width: thin;
     color: black;
     padding: 15px 32px;
-    text-align: center;    
+    text-align: center;
     display: inline-block;
     font-size: 22px;
     border-radius: 14px;
@@ -419,5 +419,5 @@ nav ul li:hover, nav ul li.active {
     text-shadow: 1px 1px #AAAAAA;
     font-size: 32px;
     font-weight: 900;
-    text-align: center;    
+    text-align: center;
 }
