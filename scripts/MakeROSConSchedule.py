@@ -70,6 +70,21 @@ def make_track(talk,session,timeslotset,trkid=1,trkname=None):
 	output += '\t\t<h4 class="session-title">{0}</h4>\n'.format(talk["Title"])
 	output += '\t\t<h4 class="session-presenter">{0}\n\t\t</h4>\n'.format(authors)
 
+	needextrabr = False
+
+	if not pd.isna(talk["Links"]):
+		needextrabr = True
+		link = talk["Links"].split("\n")[0]
+		output += '\t\t<a href="{0}" target="_blank" style="color:white" class="video-link">🤖 Ver código</a><br>\n'.format(link)
+
+	if not pd.isna(talk["Documentation"]):
+		needextrabr = True
+		link = talk["Documentation"].split("\n")[0]
+		output += '\t\t<a href="{0}" target="_blank" style="color:white" class="video-link">🌐 Leer más</a><br>\n'.format(link)
+
+	if needextrabr:
+		output += '\t\t<br>\n'
+
 	if not pd.isna(talk["Description"]):
 		descr = markdown(talk["Description"])
 		numwords = len(re.findall(r'\w+', descr))
@@ -80,12 +95,6 @@ def make_track(talk,session,timeslotset,trkid=1,trkname=None):
 		output += descr + '\n'
 		if verylong:
 			output += '\t\t</details>\n'
-
-	links = "Links"
-	if not pd.isna(talk[links]):
-		link = talk[links].split("\n")[0]
-		output += '\t\t<br>\n'
-		output += '\t\t<a href="{0}" target="_blank" style="color:white" class="video-link">🌐 More Info</a>\n'.format(link)
 
 	output += '\t</div>\n\n'
 	return output
