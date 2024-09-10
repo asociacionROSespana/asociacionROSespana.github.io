@@ -147,7 +147,7 @@ if __name__ == "__main__":
 
 	# Print it all out
 	output = ""
-	output += make_day(day1, "Workshops/Tutoriales - 19 de septiembre de 2024", [ 'Aula 1', 'Aula 2', 'Aula 3' ])
+	output += make_day(day1, "Workshops/Tutoriales - 19 de septiembre de 2024", [ 'Ed. 45, Planta 1, Aula 05', 'Ed. 45, Planta 1, Aula 06', 'Ed. 45, Planta 1, Aula 07' ])
 	output += make_day(day2, "Charlas Técnicas - 20 de septiembre de 2024", [ 'Paraninfo', 'Sala de Grados, Ed. 7' ])
 
 	print(output)
