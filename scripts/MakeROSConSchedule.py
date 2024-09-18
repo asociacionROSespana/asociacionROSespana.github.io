@@ -52,7 +52,7 @@ def make_full_track(talk, session, timeslotset, numtrk):
 	output += '\t</div>\n\n'
 	return output
 
-def make_track(talk,session,timeslotset,trkid=1,trkname=None):
+def make_track(talk,session,timeslotset,trkid=1,roomname=None):
 
 	start = talk["StartTime"]
 	stop = talk["EndTime"]
@@ -62,9 +62,13 @@ def make_track(talk,session,timeslotset,trkid=1,trkname=None):
 
 	output += '\t<div class="session session-{0} track-{3}" style="grid-column: track-{3}; grid-row: time-{1} / time-{2};">\n'.format(session,to_css(start),to_css(stop),trkid)
 
+	toplefttext = roomname
+	if toplefttext is not None and not pd.isna(trkname := talk['Track']):
+		toplefttext += '<br>' + trkname
+
 	output += '\t\t<span class="session-time">{0} - {1}</span>\n'.format(start,stop)
-	if trkname is not None:
-		output += '\t\t<span class="session-track">{0}</span>\n'.format(trkname)
+	if toplefttext is not None:
+		output += '\t\t<span class="session-track">{0}</span>\n'.format(toplefttext)
 
 	output += '\t\t<br>\n'
 	output += '\t\t<h4 class="session-title">{0}</h4>\n'.format(talk["Title"])
