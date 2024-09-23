@@ -14,7 +14,7 @@ exclude:
   - upload.bash
   - presentations
   - scripts
-  
+
 permalink: /:title ## disables post output
 timezone: null
 lsi: false
@@ -40,6 +40,7 @@ colors:
   purple:    '#4d235e'
   orange:    '#fab125'
   turquoise: '#0fbfcf'
+  red:       '#BF4040'
   logo_green: '#7F9686'
   logo_orange: '#ED906E'
   logo_yellow: '#F5CA85'
