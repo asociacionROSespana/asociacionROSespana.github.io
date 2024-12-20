@@ -86,6 +86,11 @@ def make_track(talk,session,timeslotset,trkid=1,roomname=None):
 		link = talk["Documentation"].split("\n")[0]
 		output += '\t\t<a href="{0}" target="_blank" style="color:white" class="video-link">🌐 Leer más</a><br>\n'.format(link)
 
+	if not pd.isna(talk["Video"]):
+		needextrabr = True
+		link = talk["Video"].split("\n")[0]
+		output += '\t\t<a href="{0}" target="_blank" style="color:white" class="video-link">🎞 Vídeo</a><br>\n'.format(link)
+
 	if needextrabr:
 		output += '\t\t<br>\n'
 
