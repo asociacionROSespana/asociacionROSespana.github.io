@@ -21,23 +21,14 @@
 <body>
   <div id="main">
 
-    <h1 style="text-align: center;">ROSCon Espa&ntilde;a</h1>
-    <p style="text-align: center;"><a href="ROSConES2025.html"><img src="img/RosConES2024.jpg" alt="" width="500"/></a></p>
-    <p style="text-align: center;">ROSCon España 2025</p>
-
-    <!--<div style="width:50%;text-align:center;">
-      <center><a href="ROSCon2023Madrid.html"> <img src="img/roscon.jpg"> </a></center>
-    </div>-->
-    
-    <!--
     <nav><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endfor %}
     </ul></nav>
--->
-<!--
+
+
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="{{id}}" class="section p-{{id}}">
@@ -59,15 +50,15 @@
           {{ page.content }}
         </div>
       </div>
-    {% endfor %} -->
+    {% endfor %}
 
-    <!--
+
     <div id="footer" class="section text-white">
       <div class="container">
         {% capture foottext %} {% include footer.md %} {% endcapture %}
         {{ foottext | markdownify }}
       </div>
-    </div>-->
+    </div>
   </div>
 
 {% include analytics.html %}

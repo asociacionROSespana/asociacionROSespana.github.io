@@ -4,17 +4,17 @@ bg: logo_purple
 color: white
 fa-icon: bullhorn
 style: left
-published: false
+published: true
 ---
 
 # CfP ROSCon {{site.roscon_event}} {{site.roscon_year}} 
 
 
-ROSCon ES 2024 se llevará a cabo en Sevilla, del 19 al 20 de septiembre de 2024. Es el lugar para que los desarrolladores de ROS de todos los niveles, desde principiantes hasta expertos, pasen dos días extraordinarios aprendiendo y estableciendo contactos con la comunidad ROS.
+ROSCon ES 2025 se llevará a cabo en Sevilla, del 18 al 19 de septiembre de 2025. Es el lugar para que los desarrolladores de ROS de todos los niveles, desde principiantes hasta expertos, pasen dos días extraordinarios aprendiendo y estableciendo contactos con la comunidad ROS.
 
 ¡Para ello, solicitamos sus contribuciones! El núcleo de la conferencia es (y siempre ha sido) el contenido de la comunidad. Este año buscamos propuestas para dos tipos diferentes de contenido:
 
-- Worhops/Tutoriales: Este año se ofrecen workshops/tutoriales el primer día de la conferencia (día 19). El objetivo de estos workshops es proporcionar un espacio para experiencias participativas/interactivas entre el presentador y los asistentes y la oportunidad de profundizar más en un tema de lo que una charla normal podría permitir.
+- Worhops/Tutoriales: Este año se ofrecen workshops/tutoriales el primer día de la conferencia (día 18). El objetivo de estos workshops es proporcionar un espacio para experiencias participativas/interactivas entre el presentador y los asistentes y la oportunidad de profundizar más en un tema de lo que una charla normal podría permitir.
 - Charlas: El formato de presentación estándar es la charla, con el o los presentadores hablando en vivo sobre un tema específico, con un breve turno de preguntas al final, que se ajusta a un intervalo de tiempo de 10, 20 o 30 minutos.
 
 
@@ -80,13 +80,16 @@ Las propuestas de workshops deben incluir:
 - Descripción: describe el workshop y sus objetivos, para su revisión por parte del comité del programa. Describe el público objetivo y qué recursos (si los hubiera) serían necesarios. Asegúrtate de incluir suficiente información en su propuesta para que el comité del programa evalúe los criterios de revisión anteriores.
 
 
-Envía tu propuesta de workshop/tutorial [aquí](https://forms.gle/5mdGtLXuq3f186r1A)
-
 Las propuestas de workshops deben enviarse antes del final de {{ site.proposals_workshops_deadline }}. 
 
-<center>
+<!-- <center>
 <a href="https://forms.gle/5mdGtLXuq3f186r1A"><img src="./img/workshop.png" class="workshop-img" alt="Propuesta Workshop" style="width:30%"/></a>
+</center> -->
+
+<center>
+<a href=""><img src="./img/workshop.png" class="workshop-img" alt="Propuesta Workshop" style="width:30%"/></a>
 </center>
+<br>
 
 ## Información para el envío de propuestas de charlas
 
@@ -99,15 +102,15 @@ Las propuestas de charla deben incluir:
 * Descripción: esquema y objetivos, para revisión por parte del comité del programa. Describa el público objetivo y lo que pueden esperar aprender. Asegúrese de incluir suficiente información en su propuesta para que el comité del programa evalúe los criterios de revisión anteriores.
 
 
-Envía tu propuesta de charla [aquí](https://forms.gle/4pRWU676JufvrMkD9)
-
 Las propuestas deben enviarse antes del final de {{ site.proposals_talks_deadline }}. 
 
-<center>
+<!-- <center>
 <a href="https://forms.gle/4pRWU676JufvrMkD9"><img src="./img/charla.png" class="charla-img" alt="Propuesta Charla" style="width:30%"/></a>
+</center> -->
+
+<center>
+<a href=""><img src="./img/charla.png" class="charla-img" alt="Propuesta Charla" style="width:30%"/></a>
 </center>
-
-
 
 
 {%comment%}
