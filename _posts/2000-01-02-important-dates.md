@@ -36,14 +36,14 @@ published: true
 
 {% if site.proposals_deadline %}
 ### Deadline para propuestas de charlas 
-{{ site.proposals_deadline }}
+{{ site.proposals_deadline }} | {{site.new_proposal_deadline}}
 {% endif %}
 
 <br>
 
 {% if site.proposals_deadline %}
 ### Deadline para propuestas de workshops 
-{{ site.proposals_deadline }}
+{{ site.proposals_deadline }} | {{site.new_proposal_deadline}}
 {% endif %}
 
 <br>
