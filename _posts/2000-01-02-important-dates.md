@@ -4,7 +4,7 @@ bg: eurecat_back_2
 color: white
 style: center
 fa-icon: calendar
-published: true
+published: false
 ---
 
 # ROSCon {{site.roscon_event}} {{site.roscon_year}}
