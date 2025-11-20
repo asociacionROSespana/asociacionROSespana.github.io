@@ -1,0 +1,138 @@
+/* Tipografía básica y colores suaves */
+:root {
+  --bg-color: #f5f5f5;
+  --card-bg: #ffffff;
+  --primary: #005f9e;
+  --primary-light: #e0f0ff;
+  --text-main: #222222;
+  --text-muted: #555555;
+  --border-soft: #dddddd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.6;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+}
+
+/* Contenedor centrado */
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Cabecera y navegación */
+.site-header {
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 0.75rem 0;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.site-nav {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.site-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Contenido principal */
+.site-main {
+  padding: 1.5rem 0 2rem;
+}
+
+.intro {
+  margin-bottom: 1.5rem;
+}
+
+/* Tarjetas de sección */
+.section-card {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border-soft);
+}
+
+.section-card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+/* Listas de contacto */
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.contact-list li + li {
+  margin-top: 0.5rem;
+}
+
+/* Enlaces */
+a {
+  color: var(--primary);
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* Botón sencillo como enlace */
+.button-link {
+  display: inline-block;
+  padding: 0.5rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--primary);
+  background-color: var(--primary-light);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.button-link:hover,
+.button-link:focus {
+  background-color: #ffffff;
+}
+
+/* Pie de página */
+.site-footer {
+  border-top: 1px solid var(--border-soft);
+  padding: 1rem 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  background-color: #fafafa;
+}
+
+/* Adaptación móvil básica */
+@media (max-width: 600px) {
+  .site-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
