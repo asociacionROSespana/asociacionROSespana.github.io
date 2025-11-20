@@ -143,9 +143,10 @@ a:focus {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .site-logo {
-    height: 36px;        /* Versión reducida en móvil */
-    top: 6px;
-    right: 10px;
+    height: 40px;   /* versión más pequeña para pantallas pequeñas */
+    width: auto;
+    margin: 0.5rem 0 1rem 0;
   }
 }
