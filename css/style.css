@@ -2,8 +2,8 @@
 :root {
   --bg-color: #f5f5f5;
   --card-bg: #ffffff;
-  --primary: #005f9e;
-  --primary-light: #e0f0ff;
+  --primary: #031d44;      /* azul marino del logo */
+  --primary-light: #e6ebf3;
   --text-main: #222222;
   --text-muted: #555555;
   --border-soft: #dddddd;
@@ -40,7 +40,7 @@ body {
 .site-logo {
   display: block;
   margin: 0.5rem 0 1rem 0;   /* separación arriba/abajo */
-  height: 60px;              /* ajusta a tu gusto */
+  height: 96px;              /* ajusta a tu gusto */
   width: auto;
 }
 
@@ -145,8 +145,65 @@ a:focus {
   }
 
   .site-logo {
-    height: 40px;   /* versión más pequeña para pantallas pequeñas */
+    height: 64px;   /* versión más pequeña para pantallas pequeñas */
     width: auto;
     margin: 0.5rem 0 1rem 0;
   }
+}
+
+/* Patrocinadores */
+.sponsor-tier {
+  margin-top: 1.5rem;
+}
+
+.sponsor-tier h3 {
+  margin: 0 0 0.75rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border-bottom: 3px solid var(--tier-color, var(--border-soft));
+  display: inline-block;
+  padding-bottom: 0.15rem;
+}
+
+.sponsor-tier--platinum { --tier-color: #9aa4b1; --logo-h: 96px;  --logo-w: 340px; }
+.sponsor-tier--oro      { --tier-color: #e0b40f; --logo-h: 80px;  --logo-w: 180px; }
+.sponsor-tier--plata    { --tier-color: #b8bec6; --logo-h: 80px;  --logo-w: 170px; }
+.sponsor-tier--bronce   { --tier-color: #b87333; --logo-h: 56px;  --logo-w: 140px; }
+
+.sponsor-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem 2rem;
+}
+
+.sponsor-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--logo-w);
+  height: var(--logo-h);
+  max-width: 100%;
+}
+
+.sponsor-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.sponsor-cta {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-soft);
+}
+
+@media (max-width: 600px) {
+  .sponsor-grid { gap: 1rem 1.5rem; }
+  .sponsor-tier--platinum { --logo-w: 260px; --logo-h: 72px; }
+  .sponsor-tier--oro      { --logo-w: 130px; --logo-h: 60px; }
+  .sponsor-tier--plata    { --logo-w: 120px; --logo-h: 56px; }
+  .sponsor-tier--bronce   { --logo-w: 110px; --logo-h: 44px; }
 }
